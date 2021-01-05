@@ -1,0 +1,28 @@
+{
+  "name": "books-library-backend",
+  "version": "1.0.0",
+  "description": "Backend Application for managing our own books library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/js-exercises-collection/books-library-backend.git"
+  },
+  "keywords": [
+    "backend",
+    "node",
+    "js"
+  ],
+  "author": "Eni Sinanaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/js-exercises-collection/books-library-backend/issues"
+  },
+  "homepage": "https://github.com/js-exercises-collection/books-library-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,22 @@
+GET http://localhost:5000/books
+
+###
+
+POST http://localhost:5000/books
+Content-Type: application/json
+
+{ 
+    "title": "The Art Of War",
+    "author": "Sun Tzu",
+    "publisher": "Magoria Books",
+    "dimensions": {
+        "width": 12.7,
+        "height": 20.32,
+        "depth": 0.41
+    },
+    "boughtOn": "01.07.2016",
+    "isbn10": "0981162630",
+    "isbn13": "978-0981162638",
+    "pages": 57,
+    "language": "English"
+}
