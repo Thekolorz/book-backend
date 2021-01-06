@@ -13,7 +13,7 @@ const books = [
       isbn10: "0981162630",
       numberOfCopies: 1,
       isbn13: "978-0981162638",
-      pages: 58,
+      pages: 57,
       language: "English",
       to: {
           "name": "person name",
